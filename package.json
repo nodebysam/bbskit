@@ -1,0 +1,32 @@
+{
+  "name": "bbskit",
+  "version": "1.0.0",
+  "description": "NodeJS bulletin board system toolkit.",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodebysam/bbskit.git"
+  },
+  "keywords": [
+    "bbs",
+    "forum",
+    "helpers",
+    "toolkit",
+    "nodejs"
+  ],
+  "author": "Sam Wilcox <sam@echoversebbs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodebysam/bbskit/issues"
+  },
+  "homepage": "https://github.com/nodebysam/bbskit#readme",
+  "dependencies": {
+    "vitest": "^4.0.7"
+  }
+}
